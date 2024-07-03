@@ -109,6 +109,8 @@ button{
 } 
 
 .hero-img{
+    position: absolute;
+    margin-left: 60%;
     width: 30%;
 }
 
@@ -123,7 +125,7 @@ button{
 }
 .about {
     padding: 20px;
-    background-color: #302f2f;
+    background-color: #01B4AF;
 }
 
 .about-head {
@@ -151,6 +153,7 @@ button{
     max-width: 100%;
     height: auto;
     display: block;
+    margin-bottom: 100px;
 }
 .about-head{
     color: #ffff;
@@ -159,11 +162,146 @@ button{
 .about-para{
     color: #ffff;
     font: bold;
-    font-weight: 500;
+    font-weight: 700;
     /* width: 70%; */
-    padding-left: 250px;
+    padding-left: 300px;
+    padding-bottom: 40px;
+    font-size: 20px;
 }
 
-/* .contact{
+.contact{
     color: rgb(0, 0, 0);
+}
+
+.about-link{
+    color: #ffff;
+    text-decoration: none;
+    border: 2px solid #5afdf8;
+    padding: 10px 10px;
+    margin-left: 500px;
+}
+a:hover{
+    background-color: #ffff;
+    color: #01B4AF;
+}
+
+
+
+.contactus{
+    background-color: #121313;
+    color: #ffff;
+    text-align: center;
+    padding: 20px;
+}
+.contactus-head{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+input{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #01B4AF;
+    outline: none;
+}
+.contactus-button{
+    padding: 10px 20px;
+    border: 2px solid #01B4AF;
+    background-color: #01B4AF;
+    color: #080808;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+header{
+    background-color: #01B4AF;
+    color: #ffff;
+    padding: 10px 0;
+    /* text-align: center; */
+    font-size: 15px;
+    font-weight: 600;
+}
+
+li{
+    display: inline;
+    margin: 0px 10px;
+    margin-left: 20px;
+}
+ul{
+    display: flex;
+    justify-content: right;
+}
+.contact{
+    color: #ffff;
+    text-decoration: none;
+    padding: 20px;
+}
+.Github{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    /* margin-top: 100px; */
+    margin-left: 150px;
+    text-align: center;
+    background-color: #71d2cf;
+}
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+/* .project-head, .project-para, .Github {
+    margin: 0;
 } */
+
+.project-head {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-para {
+    margin-bottom: 10px;
+}
+
+.Github {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .project-img {
+        margin-bottom: 10px;
+    }
+}
+
+.projects-head{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 80px;
+    /* margin-left: 20px; */
+    font-style: bold;
+    color: #000000;
+    text-align: center;
+}
